@@ -41,6 +41,6 @@ Please include unit tests and demonstrate good architectural principles.
 
 #### Run
 ```
-mvn package -q -Dmaven.test.skip
-java -jar target/*.jar "input.txt"
+mvn package
+java -jar target/calculator-0.0.1-SNAPSHOT-jar-with-dependencies.jar input.txt
 ```
